@@ -1,0 +1,33 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+body{
+font-family: 'Poppins', sans-serif;
+font-size: 16px;
+line-height: 1.5;
+background: #fff;
+}
+
+a{
+text-decoration: none;
+color: #333;
+}
+
+ul{
+list-style: none;
+}
+
+img{
+max-width: 100%;
+/* a div that has a certain width on it, it does not break out of div */
+}
+
+.container{
+max-width: 1100px;
+margin: 0 auto;
+/* top and bottom zero, left and right auto */
+padding: 0 15px;
+}
